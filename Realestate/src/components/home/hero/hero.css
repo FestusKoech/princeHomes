@@ -1,0 +1,102 @@
+.hero {
+  background-image: url("../../../../public/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 7px;
+  background-attachment: fixed;
+  height: 90vh ;
+  width: 100%;
+  
+  
+  margin-top: 30px;
+  margin-bottom: 30px;
+ 
+}
+.hero .container {
+  padding-top: 5%;
+  height: 90%;
+  margin-bottom: 50px;
+ 
+}
+.hero h1 {
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 60px;
+}
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form span {
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+}
+input::placeholder {
+  font-size: 12px;
+  color: rgb(151, 151, 149);
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  padding-bottom: 5px;
+  align-items: flex-start;
+}
+form .btn1 {
+  padding: 5px;
+  align-self: auto;
+  margin-left: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  display: inline-block;
+ 
+ 
+}
+
+.btn1 .btn{
+  background-color: rgb(97, 221, 83);
+  height: 5px;
+  text-align: justify;
+  display: inline-block;
+ 
+ 
+}
+
+
+
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
